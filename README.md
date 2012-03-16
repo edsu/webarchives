@@ -20,7 +20,7 @@ you want to lookup in the Web archives. `lookup` will return a list of
 (time, url). Each tuple represents when the requested url was archived and 
 where the archived representation can be retrieved from.
 
-    ```python
+    ```!python
 
     import webarchives
 
