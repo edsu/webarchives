@@ -10,7 +10,7 @@ def lookup(request_url):
 
     url = base + request_url
 
-    fh = urllib.urlopen(iauri)
+    fh = urllib.urlopen(url)
     data = fh.read()
     fh.close()
     dom = etree.parse(StringIO.StringIO(data), parser)

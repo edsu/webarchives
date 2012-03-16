@@ -21,7 +21,7 @@ class TestLookup(TestCase):
         self.assertTrue(len(results) > 0)
 
     def test_canada(self):
-        results = webarchives.archiefweb.lookup('http://www.accountability.gc.ca')
+        results = webarchives.canada.lookup('http://www.accountability.gc.ca')
         self.assertTrue(len(results) > 0)
 
 
