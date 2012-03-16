@@ -4,7 +4,7 @@ webarchives
 webarchives is a Python module for easily determining if a given URL is 
 available from a known Web archiving project. The idea is that it could be handy
 in situations where you have a URL, but the URL no longer resolves, and you would like to see the content. Web archiving projects are being run by national 
-libraries, archives and non-profits that part of the 
+libraries, archives and non-profits that are part of the 
 [Internet Internet Preservation Consortium](http://www.netpreserve.org/).
 
 The genesis for webarchives was work done by the [Memento
