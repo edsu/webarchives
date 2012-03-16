@@ -9,8 +9,8 @@ libraries, archives and non-profits that part of the
 
 The genesis for webarchives was work done by the [Memento
 Project](http://www.mementoweb.org/) on the [Memento
-Proxy](http://www.mementoweb.org/tools/proxy/) which provided the seed of the
-scraping modules used by webarchives.
+Proxy](http://www.mementoweb.org/tools/proxy/) which provided the seed for the
+scraping backend modules used by webarchives.
 
 Usage
 -----
