@@ -17,8 +17,8 @@ Usage
 
 The webarchives module provides a function `lookup`, which you pass a url that 
 you want to lookup in the Web archives. `lookup` will return a list of 
-(time, url). Each tuple represents when the requested url was archived and 
-where the archived representation can be retrieved from.
+`(time, url)` tuples. Each tuple represents when the requested url was 
+archived and where the archived representation can be retrieved from.
 
 ```python
 
