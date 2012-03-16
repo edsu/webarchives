@@ -10,4 +10,5 @@ setup(
     platforms = ['POSIX'],
     packages = ['webarchives'],
     test_suite = 'test',
+    install_requires = ['lxml'],
 )

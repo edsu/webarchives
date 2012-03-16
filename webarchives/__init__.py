@@ -1,5 +1,5 @@
-import webarchives.backends
+import internet_archive, archiefweb, british_library
 
 def lookup(url):
     # TODO: lookup in all the backends in parallel
-    return backends.internet_archive.lookup(url)
+    return internet_archive.lookup(url)
