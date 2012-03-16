@@ -20,5 +20,10 @@ class TestLookup(TestCase):
         results = webarchives.archiefweb.lookup('http://www.denhelder.nl/')
         self.assertTrue(len(results) > 0)
 
+    def test_canada(self):
+        results = webarchives.archiefweb.lookup('http://amicus.collectionscanada.gc.ca/')
+        self.assertTrue(len(results) > 0)
+
+
 if __name__ == "__main__":
     main()

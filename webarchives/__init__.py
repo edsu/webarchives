@@ -1,4 +1,4 @@
-import internet_archive, archiefweb, british_library
+import internet_archive, archiefweb, british_library, canada
 
 def lookup(url):
     # TODO: lookup in all the backends in parallel
